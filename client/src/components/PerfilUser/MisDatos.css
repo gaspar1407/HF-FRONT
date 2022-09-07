@@ -1,0 +1,324 @@
+.misDatos {
+    background-image: url('https://i.ibb.co/dgPmZDv/Fondo-de-Escritorio-KANBAN-para-Profesor-Rosa-Marr-n-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.totalContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+}
+
+.containerDerecha {
+    display: flex;
+    flex-direction: row;
+
+    width: 900px;
+
+    padding: 10px;
+    margin: 20px;
+
+    border-radius: 20px;
+
+    background-color: #000000c7;
+    color: #DFCB44;
+}
+
+.containerIzquierda {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerArriba {
+    width: 900px;
+    height: 300px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #000000c7;
+    color: #DFCB44;
+
+}
+
+.containerAbajo {
+    width: 900px;
+    /* height: 300px; */
+
+    padding: 10px;
+    margin: 20px;
+
+    border-radius: 20px;
+
+    background-color: #000000c7;
+    color: #DFCB44;
+}
+
+.container-image-perfil {
+    float: right;
+    max-width: 150px;
+    border-radius: 50%;
+    margin-right: 105px;
+}
+
+.container-image-perfil-edit {
+    float: right;
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 150px;
+}
+
+.containDatosBox {
+    width: 900px;
+}
+
+.misDTitlte {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.elementosDatos {
+    margin-left: 100px;
+    margin-top: 80px;
+    text-align: left;
+}
+
+.element {
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 30px;
+    color: white;
+}
+
+.elementInput {
+    padding-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.inputEditDatos {
+    border-radius: 20px;
+}
+
+.buttonEdit {
+    margin: 0px auto;
+}
+
+.buttonEditStyle {
+    --color: #DFCB44;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    background-color: #23252E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+}
+
+.buttonEditStyle:before {
+content: ""; 
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.buttonEditStyle:hover {
+    color: #23252E;
+}
+
+.buttonEditStyle:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.buttonEditStyle:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.inputEdit {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem;
+    margin-left: 10px;
+    outline: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.77);
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.inputEdit:focus,
+input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 20;
+    border-color: #DFCB44;
+}
+
+.inputEdit::placeholder {
+    color: #777;
+}
+
+.inputEdit:focus::placeholder {
+    opacity: 0;
+    color: #DFCB44;
+    transition: opacity .3s;
+}
+
+.editContainer{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    padding: 10px;
+    margin: 10px auto;
+    margin-top: 7%;
+    border-radius: 20px;
+    background-color: #000000c7;
+    color: #DFCB44;
+}
+
+.buttonBackMD{
+    text-decoration: none;
+    --color: #DFCB44;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    background-color: #23252E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+}
+
+
+.buttonBackMD:before {
+content: ""; 
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.buttonBackMD:hover {
+    color: #23252E;
+}
+
+.buttonBackMD:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.buttonBackMD:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.buttonRecuperarCont {
+    text-decoration: none;
+    --color: #DFCB44;
+    font-family: inherit;
+    display: inline-block;
+    height: 2.6em;
+    width: 16em;
+    line-height: 2.5em;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    background-color: #23252E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: var(--color);
+}
+
+.buttonRecuperarCont:before {
+ content: ""; 
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.buttonRecuperarCont:hover {
+    color: #23252E;
+}
+
+.buttonRecuperarCont:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.buttonRecuperarCont:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.botonEstrellado {
+    border: none;
+    background-color: transparent;
+    color: #f3f3f387;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.pintada {
+    color: #DFCB44;
+
+}
+
+.span-de-name {
+    border: none;
+
+}
